@@ -1,0 +1,104 @@
+.header {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header p {
+  font-size: 20px;
+}
+
+.header p:first-child {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
+
+.header h1 {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.header p:nth-child(3) {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  width: 80%;
+}
+
+.header button {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  font-size: 16px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: 150ms;
+}
+
+.header button:hover {
+  box-shadow: 0px 0px 15px var(--secondary-color);
+}
+
+@media screen and (min-width: 2200px) {
+  .header {
+    width: 1500px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header h1 {
+    font-size: 50px;
+  }
+  .header p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .header h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header h1 {
+    font-size: 40px;
+  }
+  .header p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .header h1 {
+    font-size: 40px;
+  }
+  .header p {
+    font-size: 16px;
+  }
+  .header button {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .header {
+    width: 90%;
+  }
+}

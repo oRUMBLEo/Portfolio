@@ -1,0 +1,125 @@
+.about {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about h1 {
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+}
+
+.about__container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 2rem;
+}
+
+.about__description {
+  background-color: var(--container-color);
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 80%;
+}
+
+.about__description p {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: var(--text-color);
+  text-align: justify;
+  line-height: 40px;
+  background-color: rgb(38, 38, 38);
+  border-radius: 10px;
+  height: calc(100% - 2rem);
+  padding: 1rem;
+}
+
+.about__languages-container {
+  max-width: 100%;
+  background-color: var(--container-color);
+  border-radius: 10px;
+  text-align: center;
+  width: 15%;
+  padding: 1.5rem;
+}
+
+.about__languages-container p:first-child {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--secondary-color);
+  font-size: 18px;
+  text-align: center;
+}
+
+.about__languages {
+  padding-top: 1rem;
+  width: 100%;
+  height: calc(90% - 2rem);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about__languages p {
+  font-family: var(--secondary-font);
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.about__language {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: rgb(38, 38, 38);
+  border-radius: 10px;
+}
+
+.about__language img {
+  width: 55px;
+}
+
+@media screen and (min-width: 1080px) {
+  .about__container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about__container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .about__container {
+    flex-direction: column;
+  }
+
+  .about__description {
+    width: calc(100% - 3rem);
+  }
+
+  .about__languages-container {
+    width: calc(100% - 3rem);
+  }
+
+  .about__languages {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .about__language p {
+    font-size: 14px;
+  }
+}
