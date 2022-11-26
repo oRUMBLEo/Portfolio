@@ -9,7 +9,7 @@
 
   --primary-font: "Poppins", sans-serif;
   --secondary-font: "Fira Code", monospace;
-  --container-color: rgba(38, 38, 38, 0.54)
+  --container-color: rgba(255, 255, 255, 0.05);
 }
 
 body {

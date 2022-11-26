@@ -2,33 +2,33 @@ import website from "../../images/website.png"
 
 export const ProjectData = [
   {
-    title: "Media Website",
+    title: "Lorem Ipsum",
     image: website,
-    webLink: "https://amazon.com",
+    webLink: "",
   },
   {
-    title: "Media Website",
+    title: "Lorem Ipsum",
     image: website,
-    webLink: "https://amazon.com",
+    webLink: "",
   },
   {
-    title: "Media Website",
+    title: "Lorem Ipsum",
     image: website,
-    webLink: "https://amazon.com",
+    webLink: "",
   },
   {
-    title: "Media Website",
+    title: "Lorem Ipsum",
     image: website,
-    webLink: "https://amazon.com",
+    webLink: "",
   },
   {
-    title: "Media Website",
+    title: "Lorem Ipsum",
     image: website,
-    webLink: "https://amazon.com",
+    webLink: "",
   },
   {
-    title: "Media Website",
+    title: "Lorem Ipsum",
     image: website,
-    webLink: "https://amazon.com",
+    webLink: "",
   },
 ]
